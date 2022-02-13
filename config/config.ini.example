@@ -1,31 +1,31 @@
-; The URL of your blog. Include the http or https if you are using Facebook or Disqus comment. 
+; 博客的网址。如果您使用的是Facebook或Disqus评论，请包含http或https. 
 site.url = ""
 
-; Your timezone
-timezone = "Asia/Jakarta"
+; 您的时区
+timezone = "Asia/Shanghai"
 
-; Date format. See: https://www.php.net/manual/en/function.strftime
-date.format = "%d %B %Y"
+; 时间格式. See: https://www.php.net/manual/en/function.strftime
+date.format = "%Y %B %d"
 
-; Your language (example "en_US" for English or "de_DE" for German. See lang directory for available language)
-language = "en_US"
+; 语言 (example "en_US" for English or "de_DE" for German. See lang directory for available language)
+language = "zh_TW"
 
-; Blog info
+; 博客信息
 blog.title = "HTMLy"
 blog.tagline = "Just another HTMLy blog"
 blog.description = "Proudly powered by HTMLy, a databaseless blogging platform."
 blog.copyright = "(c) Your name."
 
-; Set permalink type. "default" using /year/month/title. "post" using /post/title
-permalink.type = "default"
+; 设置永久链接类型. "default" using /year/month/title. "post" using /post/title
+permalink.type = "post"
 
-; Make the frontpage static. Options "false" and "true"
+; 首页静态化. Options "false" and "true"
 static.frontpage = "false"
 
-; Show the /blog url as the blog homepage. Options "false" and "true"
+; 将 /blog url 显示为博客主页。选项"假"和"真"
 blog.enable = "false"
 
-; Social account
+;社交帐户
 social.twitter = ""
 social.facebook = ""
 
